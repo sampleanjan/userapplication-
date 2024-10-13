@@ -36,4 +36,5 @@ EXPOSE 9093:8080
  
 # Define the entrypoint to run the application
 
-ENTRYPOINT ["java", "-jar", "demo.war"]
+
+ENTRYPOINT ["java", "-jar", "/app/demo.war"]
