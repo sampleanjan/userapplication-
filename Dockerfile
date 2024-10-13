@@ -35,6 +35,4 @@ COPY --from=builder /app/target/*.war demo.war
 EXPOSE 9093:8080
  
 # Define the entrypoint to run the application
-
-
-ENTRYPOINT ["java", "-jar", "/app/demo.war"]
+ENTRYPOINT ["java", "-jar", "demo.war"]
