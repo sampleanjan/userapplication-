@@ -32,7 +32,7 @@ COPY --from=builder /app/target/*.war demo.war
  
 # Expose the application port
 
-EXPOSE 9093:8080
+EXPOSE 9094:8080
  
 # Define the entrypoint to run the application
 ENTRYPOINT ["java", "-jar", "demo.war"]
